@@ -18,9 +18,9 @@ function currentLine (katzDeli) {
     return "The line is currently empty.";
   }
   var names = [];
-    
+
   for (var i = 0; i < katzDeli.length; i++) {
     names.push(`${i + 1}. ${katzDeli[i]}`);
   }
-    return "The line is currently: `${names.join(', ')}`";
+    return `The line is currently: ${names.join(', ')}`;
 }
